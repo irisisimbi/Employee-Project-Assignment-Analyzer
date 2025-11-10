@@ -15,8 +15,15 @@ Project demonstrates PL/SQL:
 
 ## Files
 - `schema/create_tables.sql` — create tables
-- `data/sample_data.sql` — sample data inserts
+![create](screenshots.png/create_table.png)
+
 - `plsql/analyzer.sql` — main PL/SQL demo
+![create](screenshots.png/analyzer.png)
+
+- `data/run_test.sql` — run tests
+![create](screenshots.png/run_test.png)
+
+
 - This README
 
 ## How to run (SQL Developer)
@@ -26,6 +33,6 @@ Project demonstrates PL/SQL:
 4. Run these commands in order (adjust paths):
    ```sql
    SET SERVEROUTPUT ON SIZE UNLIMITED;
-   @C:\path\to\plsql-collections-demo\schema\create_tables.sql
-   @C:\path\to\plsql-collections-demo\data\sample_data.sql
-   @C:\path\to\plsql-collections-demo\plsql\analyzer.sql
+   @C:\path\to\plsql-collections-demo\schema\create_tables.png
+   @C:\path\to\plsql-collections-demo\data\run_test.png
+   @C:\path\to\plsql-collections-demo\plsql\analyzer.png

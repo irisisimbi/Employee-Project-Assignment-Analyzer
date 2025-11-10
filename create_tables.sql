@@ -1,6 +1,6 @@
 -- create_tables.sql
 -- Creates the tables used by the PL/SQL Collections demo
-
+-- 1. Create schema objects
 CREATE TABLE employees (
   emp_id      NUMBER PRIMARY KEY,
   first_name  VARCHAR2(50),
